@@ -1,201 +1,55 @@
 {
-	"categories": {"_":{"items":1, "data":[
-    {
-      "id": "3284403c-a807-414e-b227-1a99b756f72b",
-      "title": "通识类",
-      "parent_id": null,
-      "remark": null,
-      "created_at": "2023-02-14 15:41:13.755415 +00:00",
-      "updated_at": "2023-02-15 02:29:35.522261 +00:00",
-      "extra": null,
-      "order": 1,
-      "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+"categories": {
+        "_": {
+            "items": 1,
+            "data": [
+                {
+                    "id": "3284403c-a807-414e-b227-1a99b756f72b",
+                    "title": "通识类",
+                    "parent_id": null,
+                    "remark": null,
+                    "created_at": "2023-02-14 15:41:13.755415 +00:00",
+                    "updated_at": "2023-02-15 02:29:35.522261 +00:00",
+                    "order": 1,
+                    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+                }
+            ]
+        },
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "parent_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "remark": {
+        "loremParagraphs": {
+          "minLength": 10,
+          "maxLength": 100
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "order": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
     }
-  ]}},
-	"course_categories": {"_":{"items":1, "data":[
-  {
-    "id": "1ccbfe83-55f2-4786-bce6-689049936d5d",
-    "course_id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
-    "category_id": "63813196-8264-4fc6-8f4a-c1bdf1a7a55f",
-    "created_at": "2023-02-16 10:11:36.221989 +00:00",
-    "updated_at": "2023-02-16 10:11:36.221989 +00:00",
-    "extra": null
-  }
-  ]}},
-	"courses": {"_":{"items":1, "data":[
-  {
-    "id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
-    "title": "这是一个测试",
-    "summary": "这是一个测试",
-    "creator_id": "ae3fa827-8306-49f1-b96e-a0380425b9e4",
-    "created_at": "2023-02-16 10:11:30.478443 +00:00",
-    "updated_at": "2023-02-16 10:11:30.478443 +00:00",
-    "extra": null,
-    "deleted_at": null,
-    "duration": 40,
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
-  }
-  ]}},
-	"object_tags": {"_":{"items":1, "data":[
-  {
-    "id": "a4c7a957-8667-4f05-8f32-655f0b1b3aa0",
-    "object_type": "course",
-    "object_id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
-    "tag_id": "f6921f30-6418-4181-bc1a-c311b518bdd5",
-    "extra": null,
-    "created_at": "2023-02-16 10:15:45.398659 +00:00",
-    "updated_at": "2023-02-16 10:15:45.398659 +00:00"
-  }
-  ]}},
-	"permissions": {"_":{"items":1, "data":[
-  {
-    "slug": "school_admin",
-    "id": "ba4ed9f1-215f-46e1-942d-d0df7a2b7b9f",
-    "title": "学校管理员",
-    "created_at": "2023-02-13 12:34:51.230633 +00:00",
-    "updated_at": "2023-02-15 02:44:40.360112 +00:00",
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
-  }
-  ]}},
-	"plans": {"_":{"items":1, "data":[
-  {
-    "id": "2e491974-1fa4-4ee5-81c0-e8ceb8369be5",
-    "title": "这是一个测试",
-    "duration": 15,
-    "price": 20000,
-    "real_price": 18000,
-    "creator_id": "bc684cbf-8df6-4ad4-907b-d08422bf4804",
-    "parent_id": null,
-    "summary": "asdfasdf",
-    "review_status": "created",
-    "extra": null,
-    "created_at": "2023-02-16 10:18:36.742289 +00:00",
-    "updated_at": "2023-02-16 10:18:36.742289 +00:00",
-    "begin_date": "2023-02-16",
-    "end_date": "2023-02-24",
-    "instructor_id": "f1d2d700-fcd3-4a20-a986-277407cfe6eb",
-    "deleted_at": null,
-    "execution_status": null,
-    "team_id": "3c355400-00fb-41f8-82c8-83152e1f6177",
-    "type": "auto",
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
-  }
-  ]}},
-	"role_permissions": {"_":{"items":1, "data":[
-  {
-    "id": "edc176e6-d6df-4680-a393-7fee551c102b",
-    "permission_id": "b39847f1-75dd-45c9-9bea-f9d5e40ce6f5",
-    "created_at": "2023-02-14 10:48:20.930931 +00:00",
-    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
-    "role_id": "368ee130-a33f-4b71-a521-3e5efb9395c5"
-  }
-  ]}},
-	"roles": {"_":{"items":1, "data":[
-  {
-    "id": "15e14089-8597-43f2-ac91-7dd9b12efce9",
-    "slug": "manager",
-    "title": "管理人员",
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
-    "created_at": "2023-02-15 02:37:01.765197 +00:00",
-    "updated_at": "2023-02-15 02:37:18.222435 +00:00"
-  }
-  ]}},
-	"tags": {"_":{"items":1, "data":[
-  {
-    "id": "f6921f30-6418-4181-bc1a-c311b518bdd5",
-    "title": "社会主义",
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
-    "created_at": "2023-02-16 10:15:39.942730 +00:00",
-    "updated_at": "2023-02-16 10:15:39.942730 +00:00"
-  }
-  ]}},
-	"teachers": {"_":{"items":1, "data":[
-  {
-    "id": "4a5c8061-255f-4548-be82-6241fd310170",
-    "name": "周二毛",
-    "position": "asdfasdf",
-    "address": "asdfasdfasdf",
-    "phone": "13344444444",
-    "email": "ff@ff.cc",
-    "created_at": "2023-02-16 10:14:20.477772 +00:00",
-    "updated_at": "2023-02-16 10:14:20.477772 +00:00",
-    "extra": null,
-    "deleted_at": null,
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
-    "title_id": "6f4b7dc0-bb3d-4a7d-b968-913ce09a76e6"
-  }
-  ]}},
-	"teams": {"_":{"items":1, "data":[
-  {
-    "id": "3c355400-00fb-41f8-82c8-83152e1f6177",
-    "title": "周二毛的团队",
-    "leader_id": "74896c79-fff4-4b76-b3e0-13efec0a44b7",
-    "parent_id": null,
-    "created_at": "2023-02-16 10:18:21.718698 +00:00",
-    "updated_at": "2023-02-16 10:18:21.718698 +00:00",
-    "deleted_at": null,
-    "order": 1,
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
-  }
-  ]}},
-	"tenants": {"_":{"items":1, "data":[
-  {
-    "id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
-    "title": "重庆大学公共管理学院",
-    "extra": null,
-    "created_at": "2023-02-13 09:20:36.226001 +00:00",
-    "updated_at": "2023-02-13 09:20:36.226001 +00:00"
-  }
-  ]}},
-	"timetables": {"_":{"items":1, "data":[
-  {
-    "id": "ef81f714-8af6-4448-a6ed-7bffc28f1e73",
-    "plan_id": "2e491974-1fa4-4ee5-81c0-e8ceb8369be5",
-    "course_id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
-    "teacher_id": "4a5c8061-255f-4548-be82-6241fd310170",
-    "duration": 60,
-    "created_at": "2023-02-16 10:21:14.605865 +00:00",
-    "updated_at": "2023-02-16 10:21:14.605865 +00:00",
-    "deleted_at": null,
-    "date_offset": 0,
-    "schedule_time": "08:00:00.000000 +00:00",
-    "type": "auto",
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
-  }
-  ]}},
-	"titles": {"_":{"items":1, "data":[
-  {
-    "id": "6f4b7dc0-bb3d-4a7d-b968-913ce09a76e6",
-    "title": "一级",
-    "remark": null,
-    "created_at": "2023-02-16 10:12:54.520350 +00:00",
-    "updated_at": "2023-02-16 10:12:54.520350 +00:00"
-  }
-  ]}},
-	"user_permissions": {"_":{"items":1, "data":[
-  {
-    "id": "0b9c1d9d-0aa8-4b83-9999-60c381133911",
-    "user_id": "bc684cbf-8df6-4ad4-907b-d08422bf4804",
-    "permission_id": "0fc5c216-531d-40c4-b10a-b9c09c308ed0",
-    "begin_time": "2023-02-16 18:22:44.846000 +00:00",
-    "end_time": null,
-    "created_at": "2023-02-16 10:22:48.012185 +00:00",
-    "updated_at": "2023-02-16 10:22:48.012185 +00:00"
-  }
-  ]}},
-	"users": {"_":{"items":1, "data":[
-  {
-    "id": "74896c79-fff4-4b76-b3e0-13efec0a44b7",
-    "username": "leader",
-    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
-    "email": null,
-    "phone": null,
-    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
-    "team_id": null,
-    "created_at": "2023-02-14 15:06:11.118581 +00:00",
-    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
-    "nick_name": "组长",
-    "role_id": "368ee130-a33f-4b71-a521-3e5efb9395c5"
-  }
-  ]}}
 }
