@@ -1,5 +1,5 @@
 {
-    "Category": {
+    "Course": {
       "id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       },
@@ -9,13 +9,13 @@
           "maxLength": 20
         }
       },
-      "remark": {
+      "summary": {
         "loremParagraphs": {
           "minLength": 10,
           "maxLength": 100
         }
       },
-      "parent_id": {
+      "creator_id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       },
       "created_at": {
@@ -30,7 +30,13 @@
           "max": "2020-12-31T23:59:59Z"
         }
       },
-      "order": {
+      "deleted_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "duration": {
         "int": { "min": 0, "max": 1000000 }
       },
       "tenant_id": {
