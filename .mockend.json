@@ -9,14 +9,14 @@
           "maxLength": 20
         }
       },
-      "parent_id": {
-        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
-      },
       "remark": {
         "loremParagraphs": {
           "minLength": 10,
           "maxLength": 100
         }
+      },
+      "parent_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       },
       "created_at": {
         "dateTime": {
@@ -32,6 +32,606 @@
       },
       "order": {
         "int": { "min": 0, "max": 1000000 }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "CourseCategory": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "course_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "category_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      }
+    },
+    "Course": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "summary": {
+        "loremParagraphs": {
+          "minLength": 10,
+          "maxLength": 100
+        }
+      },
+      "creator_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "deleted_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "duration": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "ObjectTag": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "object_type": {
+        "loremWords": {
+          "minLength": 10,
+          "maxLength": 15
+        }
+      },
+      "object_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "tag_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      }
+    },
+    "Permission": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "slug": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "Plan": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "duration": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "price": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "real_price": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "creator_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "parent_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "summary": {
+        "loremParagraphs": {
+          "minLength": 10,
+          "maxLength": 100
+        }
+      },
+      "review_status": {
+        "string": ["created", "pending", "reviewing", "approved", "rejected"]
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "begin_date": {
+        "dateTime": {
+          "min": "2010-01-01",
+          "max": "2020-12-31"
+        }
+      },
+      "end_date": {
+        "dateTime": {
+          "min": "2010-01-01",
+          "max": "2020-12-31"
+        }
+      },
+      "instructor_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "deleted_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "execution_status": {
+        "string": ["exported", "signed", "completed", "processing"]
+      },
+      "team_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "type": {
+        "string": ["auto", "manual"]
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "RolePermission": {
+        "_": {
+            "items": 1,
+            "data": [
+                {
+                    "id": "edc176e6-d6df-4680-a393-7fee551c102b",
+                    "permission_id": "b39847f1-75dd-45c9-9bea-f9d5e40ce6f5",
+                    "created_at": "2023-02-14 10:48:20.930931 +00:00",
+                    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
+                    "role_id": "368ee130-a33f-4b71-a521-3e5efb9395c5"
+                }
+            ]
+        },
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "permission_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "role_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      }
+    },
+    "Role": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "slug": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "Tag": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "Teacher": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "name": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "position": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "address": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "email": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "phone": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "deleted_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "title_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "Team": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "leader_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "parent_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "deleted_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "order": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "Tenant": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "Timetable": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "plan_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "course_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "teacher_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "duration": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "deleted_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "date_offset": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "schedule_time": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "type": {
+        "string": ["auto", "manual"]
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "Title": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "remark": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      }
+    },
+    "UserPermission": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "user_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "permission_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "begin_time": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "end_time": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      }
+    },
+    "User": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "username": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "nick_name": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "password": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "email": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "phone": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "team_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "role_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
       },
       "tenant_id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
