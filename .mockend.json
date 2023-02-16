@@ -104,7 +104,7 @@
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       }
     },
-    "ObjectTag": {
+    "Objecttag": {
       "id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       },
@@ -245,7 +245,7 @@
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       }
     },
-    "RolePermission": {
+    "Rolepermission": {
       "id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       },
@@ -534,7 +534,7 @@
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       }
     },
-    "UserPermission": {
+    "Userpermission": {
       "id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       },
