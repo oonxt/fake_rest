@@ -1,20 +1,5 @@
 {
-"categories": {
-        "_": {
-            "items": 1,
-            "data": [
-                {
-                    "id": "3284403c-a807-414e-b227-1a99b756f72b",
-                    "title": "通识类",
-                    "parent_id": null,
-                    "remark": null,
-                    "created_at": "2023-02-14 15:41:13.755415 +00:00",
-                    "updated_at": "2023-02-15 02:29:35.522261 +00:00",
-                    "order": 1,
-                    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
-                }
-            ]
-        },
+    "categories": {
       "id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       },
