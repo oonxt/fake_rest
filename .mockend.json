@@ -1,31 +1,40 @@
 {
-  "User": {
-    "name": {
-      "string": {}
-    },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-    },
-    "statusMessage": {
-      "string": [
-        "working from home",
-        "watching Netflix"
-      ]
-    },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
+    "Category": {
+      "id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "title": {
+        "loremWords": {
+          "minLength": 5,
+          "maxLength": 20
+        }
+      },
+      "parent_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
+      },
+      "remark": {
+        "loremParagraphs": {
+          "minLength": 10,
+          "maxLength": 100
+        }
+      },
+      "created_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "updated_at": {
+        "dateTime": {
+          "min": "2010-01-01T00:00:00Z",
+          "max": "2020-12-31T23:59:59Z"
+        }
+      },
+      "order": {
+        "int": { "min": 0, "max": 1000000 }
+      },
+      "tenant_id": {
+        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       }
-    },
-    "isPublic": {
-      "boolean": {}
     }
-  }
 }
