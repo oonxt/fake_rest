@@ -1,0 +1,472 @@
+{
+	"categories": [
+  {
+    "id": "3284403c-a807-414e-b227-1a99b756f72b",
+    "title": "通识类",
+    "parent_id": null,
+    "remark": null,
+    "created_at": "2023-02-14 15:41:13.755415 +00:00",
+    "updated_at": "2023-02-15 02:29:35.522261 +00:00",
+    "extra": null,
+    "order": 1,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  }
+],
+	"course_categories": [
+  {
+    "id": "1ccbfe83-55f2-4786-bce6-689049936d5d",
+    "course_id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
+    "category_id": "63813196-8264-4fc6-8f4a-c1bdf1a7a55f",
+    "created_at": "2023-02-16 10:11:36.221989 +00:00",
+    "updated_at": "2023-02-16 10:11:36.221989 +00:00",
+    "extra": null
+  }
+],
+	"courses": [
+  {
+    "id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
+    "title": "这是一个测试",
+    "summary": "这是一个测试",
+    "creator_id": "ae3fa827-8306-49f1-b96e-a0380425b9e4",
+    "created_at": "2023-02-16 10:11:30.478443 +00:00",
+    "updated_at": "2023-02-16 10:11:30.478443 +00:00",
+    "extra": null,
+    "deleted_at": null,
+    "duration": 40,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  }
+],
+	"object_tags": [
+  {
+    "id": "a4c7a957-8667-4f05-8f32-655f0b1b3aa0",
+    "object_type": "course",
+    "object_id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
+    "tag_id": "f6921f30-6418-4181-bc1a-c311b518bdd5",
+    "extra": null,
+    "created_at": "2023-02-16 10:15:45.398659 +00:00",
+    "updated_at": "2023-02-16 10:15:45.398659 +00:00"
+  }
+],
+	"permissions": [
+  {
+    "slug": "school_admin",
+    "id": "ba4ed9f1-215f-46e1-942d-d0df7a2b7b9f",
+    "title": "学校管理员",
+    "created_at": "2023-02-13 12:34:51.230633 +00:00",
+    "updated_at": "2023-02-15 02:44:40.360112 +00:00",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  },
+  {
+    "slug": "staff",
+    "id": "6ef99bc1-0726-46f9-9f1b-4ddd136c50d9",
+    "title": "组员",
+    "created_at": "2023-02-13 12:34:51.230633 +00:00",
+    "updated_at": "2023-02-15 02:44:40.360112 +00:00",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  },
+  {
+    "slug": "leader",
+    "id": "b39847f1-75dd-45c9-9bea-f9d5e40ce6f5",
+    "title": "组长",
+    "created_at": "2023-02-13 12:34:51.230633 +00:00",
+    "updated_at": "2023-02-15 02:44:40.360112 +00:00",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  },
+  {
+    "slug": "manager",
+    "id": "1569bf83-1988-4b0b-9879-6b9d2150e262",
+    "title": "管理人员",
+    "created_at": "2023-02-13 12:34:51.230633 +00:00",
+    "updated_at": "2023-02-15 02:44:40.360112 +00:00",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  },
+  {
+    "slug": "finance",
+    "id": "56a8b4ba-2ff1-4319-913a-6cd7fa61a83d",
+    "title": "财务",
+    "created_at": "2023-02-13 12:34:51.230633 +00:00",
+    "updated_at": "2023-02-15 02:44:40.360112 +00:00",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  },
+  {
+    "slug": "admin",
+    "id": "46a31d06-3a5f-45d2-9e9c-95b62996fe3d",
+    "title": "管理员",
+    "created_at": "2023-02-13 12:33:32.263418 +00:00",
+    "updated_at": "2023-02-15 02:46:06.065505 +00:00",
+    "tenant_id": null
+  }
+],
+	"plans": [
+  {
+    "id": "2e491974-1fa4-4ee5-81c0-e8ceb8369be5",
+    "title": "这是一个测试",
+    "duration": 15,
+    "price": 20000,
+    "real_price": 18000,
+    "creator_id": "bc684cbf-8df6-4ad4-907b-d08422bf4804",
+    "parent_id": null,
+    "summary": "asdfasdf",
+    "review_status": "created",
+    "extra": null,
+    "created_at": "2023-02-16 10:18:36.742289 +00:00",
+    "updated_at": "2023-02-16 10:18:36.742289 +00:00",
+    "begin_date": "2023-02-16",
+    "end_date": "2023-02-24",
+    "instructor_id": "f1d2d700-fcd3-4a20-a986-277407cfe6eb",
+    "deleted_at": null,
+    "execution_status": null,
+    "team_id": "3c355400-00fb-41f8-82c8-83152e1f6177",
+    "type": "auto",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  }
+],
+	"role_permissions": [
+  {
+    "id": "edc176e6-d6df-4680-a393-7fee551c102b",
+    "permission_id": "b39847f1-75dd-45c9-9bea-f9d5e40ce6f5",
+    "created_at": "2023-02-14 10:48:20.930931 +00:00",
+    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
+    "role_id": "368ee130-a33f-4b71-a521-3e5efb9395c5"
+  },
+  {
+    "id": "3eacb450-6268-42eb-b5a5-1e40662a95aa",
+    "permission_id": "56a8b4ba-2ff1-4319-913a-6cd7fa61a83d",
+    "created_at": "2023-02-14 10:48:20.976592 +00:00",
+    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
+    "role_id": "11aec6eb-5e53-457e-9309-51c3cf33d2cd"
+  },
+  {
+    "id": "b255e6e4-cc39-4c54-b7cb-695babecce6b",
+    "permission_id": "ba4ed9f1-215f-46e1-942d-d0df7a2b7b9f",
+    "created_at": "2023-02-14 10:48:20.910278 +00:00",
+    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
+    "role_id": "b1b096f7-8b4b-484d-aab6-ff4ce84c0df3"
+  },
+  {
+    "id": "3686d54b-454b-42f2-bbc1-2b511fad49ba",
+    "permission_id": "1569bf83-1988-4b0b-9879-6b9d2150e262",
+    "created_at": "2023-02-14 10:48:20.999723 +00:00",
+    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
+    "role_id": "15e14089-8597-43f2-ac91-7dd9b12efce9"
+  },
+  {
+    "id": "a4609522-e696-4798-bb55-f300b14f38ec",
+    "permission_id": "46a31d06-3a5f-45d2-9e9c-95b62996fe3d",
+    "created_at": "2023-02-14 10:48:20.879160 +00:00",
+    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
+    "role_id": "9270e721-5751-48f9-b704-7b146fe9a79f"
+  },
+  {
+    "id": "46304c1a-0894-40a5-b201-410c48849394",
+    "permission_id": "6ef99bc1-0726-46f9-9f1b-4ddd136c50d9",
+    "created_at": "2023-02-14 10:48:20.954410 +00:00",
+    "updated_at": "2023-02-15 02:37:48.161355 +00:00",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  }
+],
+	"roles": [
+  {
+    "id": "368ee130-a33f-4b71-a521-3e5efb9395c5",
+    "slug": "leader",
+    "title": "组长",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "created_at": "2023-02-15 02:37:01.765197 +00:00",
+    "updated_at": "2023-02-15 02:37:18.222435 +00:00"
+  },
+  {
+    "id": "11aec6eb-5e53-457e-9309-51c3cf33d2cd",
+    "slug": "finance",
+    "title": "财务",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "created_at": "2023-02-15 02:37:01.765197 +00:00",
+    "updated_at": "2023-02-15 02:37:18.222435 +00:00"
+  },
+  {
+    "id": "b1b096f7-8b4b-484d-aab6-ff4ce84c0df3",
+    "slug": "school_admin",
+    "title": "学校管理员",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "created_at": "2023-02-15 02:37:01.765197 +00:00",
+    "updated_at": "2023-02-15 02:37:18.222435 +00:00"
+  },
+  {
+    "id": "15e14089-8597-43f2-ac91-7dd9b12efce9",
+    "slug": "manager",
+    "title": "管理人员",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "created_at": "2023-02-15 02:37:01.765197 +00:00",
+    "updated_at": "2023-02-15 02:37:18.222435 +00:00"
+  },
+  {
+    "id": "7fdc0b6e-4389-4de1-a948-a36797236524",
+    "slug": "staff",
+    "title": "组员",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "created_at": "2023-02-15 02:37:01.765197 +00:00",
+    "updated_at": "2023-02-15 02:37:18.222435 +00:00"
+  },
+  {
+    "id": "9270e721-5751-48f9-b704-7b146fe9a79f",
+    "slug": "admin",
+    "title": "管理员",
+    "tenant_id": null,
+    "created_at": "2023-02-15 02:37:01.765197 +00:00",
+    "updated_at": "2023-02-15 02:46:22.817033 +00:00"
+  }
+],
+	"tags": [
+  {
+    "id": "f6921f30-6418-4181-bc1a-c311b518bdd5",
+    "title": "社会主义",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "created_at": "2023-02-16 10:15:39.942730 +00:00",
+    "updated_at": "2023-02-16 10:15:39.942730 +00:00"
+  }
+],
+	"teachers": [
+  {
+    "id": "4a5c8061-255f-4548-be82-6241fd310170",
+    "name": "周二毛",
+    "position": "asdfasdf",
+    "address": "asdfasdfasdf",
+    "phone": "13344444444",
+    "email": "ff@ff.cc",
+    "created_at": "2023-02-16 10:14:20.477772 +00:00",
+    "updated_at": "2023-02-16 10:14:20.477772 +00:00",
+    "extra": null,
+    "deleted_at": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "title_id": "6f4b7dc0-bb3d-4a7d-b968-913ce09a76e6"
+  }
+],
+	"teams": [
+  {
+    "id": "3c355400-00fb-41f8-82c8-83152e1f6177",
+    "title": "周二毛的团队",
+    "leader_id": "74896c79-fff4-4b76-b3e0-13efec0a44b7",
+    "parent_id": null,
+    "created_at": "2023-02-16 10:18:21.718698 +00:00",
+    "updated_at": "2023-02-16 10:18:21.718698 +00:00",
+    "deleted_at": null,
+    "order": 1,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  }
+],
+	"tenants": [
+  {
+    "id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "title": "重庆大学公共管理学院",
+    "extra": null,
+    "created_at": "2023-02-13 09:20:36.226001 +00:00",
+    "updated_at": "2023-02-13 09:20:36.226001 +00:00"
+  }
+],
+	"timetables": [
+  {
+    "id": "ef81f714-8af6-4448-a6ed-7bffc28f1e73",
+    "plan_id": "2e491974-1fa4-4ee5-81c0-e8ceb8369be5",
+    "course_id": "d1930d36-8708-43d0-853c-cdcf98efefeb",
+    "teacher_id": "4a5c8061-255f-4548-be82-6241fd310170",
+    "duration": 60,
+    "created_at": "2023-02-16 10:21:14.605865 +00:00",
+    "updated_at": "2023-02-16 10:21:14.605865 +00:00",
+    "deleted_at": null,
+    "date_offset": 0,
+    "schedule_time": "08:00:00.000000 +00:00",
+    "type": "auto",
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6"
+  }
+],
+	"titles": [
+  {
+    "id": "6f4b7dc0-bb3d-4a7d-b968-913ce09a76e6",
+    "title": "一级",
+    "remark": null,
+    "created_at": "2023-02-16 10:12:54.520350 +00:00",
+    "updated_at": "2023-02-16 10:12:54.520350 +00:00"
+  }
+],
+	"user_permissions": [
+  {
+    "id": "0b9c1d9d-0aa8-4b83-9999-60c381133911",
+    "user_id": "bc684cbf-8df6-4ad4-907b-d08422bf4804",
+    "permission_id": "0fc5c216-531d-40c4-b10a-b9c09c308ed0",
+    "begin_time": "2023-02-16 18:22:44.846000 +00:00",
+    "end_time": null,
+    "created_at": "2023-02-16 10:22:48.012185 +00:00",
+    "updated_at": "2023-02-16 10:22:48.012185 +00:00"
+  }
+],
+	"users": [
+  {
+    "id": "74896c79-fff4-4b76-b3e0-13efec0a44b7",
+    "username": "leader",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:06:11.118581 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "组长",
+    "role_id": "368ee130-a33f-4b71-a521-3e5efb9395c5"
+  },
+  {
+    "id": "dd85e303-a60e-4ccf-a677-3e8ca6ab9ee1",
+    "username": "finance",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:32:28.779210 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "财务",
+    "role_id": "11aec6eb-5e53-457e-9309-51c3cf33d2cd"
+  },
+  {
+    "id": "088fff81-a1b4-4618-ad8c-8f6f7cb21255",
+    "username": "school_admin",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 14:41:30.097125 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "学校管理员",
+    "role_id": "b1b096f7-8b4b-484d-aab6-ff4ce84c0df3"
+  },
+  {
+    "id": "896bb8b0-3665-4dcc-b9b0-5b6a131e9867",
+    "username": "manager",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:34:24.437773 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "管理人员",
+    "role_id": "15e14089-8597-43f2-ac91-7dd9b12efce9"
+  },
+  {
+    "id": "3e898bdc-f009-4026-8021-c3466d9b9de9",
+    "username": "admin",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-13 09:20:58.750510 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "管理员",
+    "role_id": "9270e721-5751-48f9-b704-7b146fe9a79f"
+  },
+  {
+    "id": "caf68a2e-fec0-4d2d-9d21-df2bfe26ddfe",
+    "username": "staff10",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 16:23:15.101923 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工10",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  },
+  {
+    "id": "11edb219-75e8-425d-a317-4180854147e9",
+    "username": "staff7",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:56:53.754592 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工7",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  },
+  {
+    "id": "bc684cbf-8df6-4ad4-907b-d08422bf4804",
+    "username": "staff6",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:54:58.130905 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工6",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  },
+  {
+    "id": "ae3fa827-8306-49f1-b96e-a0380425b9e4",
+    "username": "staff4",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:53:33.095642 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工4",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  },
+  {
+    "id": "9d9e94de-703f-41e4-ab20-f44024be1cc0",
+    "username": "staff5",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:49:44.228583 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工5",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  },
+  {
+    "id": "f1d2d700-fcd3-4a20-a986-277407cfe6eb",
+    "username": "staff3",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:48:38.880098 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工3",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  },
+  {
+    "id": "fb94e03f-d836-4f08-a6e2-c6629533e5e5",
+    "username": "staff2",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:44:10.999229 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工2",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  },
+  {
+    "id": "74d9eccf-5d11-43fc-b710-cd88e840c166",
+    "username": "staff",
+    "password": "$argon2id$v=19$m=4096,t=3,p=1$IbBWDxNhpcWItAUi6p2o276Ser0PvOGX$gsYjEf3a2fOCSZe7mkeZIZYkjkiE2H4Y74RXd4QXO0I",
+    "email": null,
+    "phone": null,
+    "tenant_id": "cbd92f1f-b2ad-4413-b202-b225c63859c6",
+    "team_id": null,
+    "created_at": "2023-02-14 15:29:14.713418 +00:00",
+    "updated_at": "2023-02-15 02:37:53.533405 +00:00",
+    "nick_name": "员工",
+    "role_id": "7fdc0b6e-4389-4de1-a948-a36797236524"
+  }
+]
+}
