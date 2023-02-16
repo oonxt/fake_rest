@@ -36,49 +36,5 @@
       "tenant_id": {
         "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
       }
-    },
-    "Course": {
-      "id": {
-        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
-      },
-      "title": {
-        "loremWords": {
-          "minLength": 5,
-          "maxLength": 20
-        }
-      },
-      "summary": {
-        "loremParagraphs": {
-          "minLength": 10,
-          "maxLength": 100
-        }
-      },
-      "creator_id": {
-        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
-      },
-      "created_at": {
-        "dateTime": {
-          "min": "2010-01-01T00:00:00Z",
-          "max": "2020-12-31T23:59:59Z"
-        }
-      },
-      "updated_at": {
-        "dateTime": {
-          "min": "2010-01-01T00:00:00Z",
-          "max": "2020-12-31T23:59:59Z"
-        }
-      },
-      "deleted_at": {
-        "dateTime": {
-          "min": "2010-01-01T00:00:00Z",
-          "max": "2020-12-31T23:59:59Z"
-        }
-      },
-      "duration": {
-        "int": { "min": 0, "max": 1000000 }
-      },
-      "tenant_id": {
-        "regexp": "\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}"
-      }
     }
 }
